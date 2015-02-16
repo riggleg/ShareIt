@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<HTML>
+  <HEAD>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="handlebars.min.300.js"></script>
+    <script type="text/javascript" src="shareit.js"></script>
+  </HEAD>
+  <BODY>
+    <div class="share_buttons">
+      <a data-share-for="facebook" href="#">Facebook</a>
+      <a data-share-for="twitter" href="#">Twitter</a>
+    </div>
+    <SCRIPT>
+      jQuery(window).load(function(){
+        $(".share_buttons").shareit({url: "http://www.arsemporium.com"});
+      });
+    </SCRIPT>
+  </BODY>
+</HTML>
