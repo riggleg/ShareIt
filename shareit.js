@@ -137,9 +137,8 @@
 			// and this.settings
 			// you can add more functions like the one below and
 			// call them like so: this.yourOtherFunction(this.element, this.settings).
-			console.log("xD");
-			console.log(this.settings.url);
-			alert($(this));
+
+
 			var plugin = this;
 			
 			plugin.bindClick(plugin.findShareElement(this.element, "facebook"), plugin.settings.facebook);
